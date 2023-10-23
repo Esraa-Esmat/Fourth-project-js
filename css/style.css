@@ -141,12 +141,12 @@ nav ul#userInfo li .badge {
 }
 
 .cartsProudect {
-    position: absolute;
+    position: absolute; 
     width: 300px;
     transform: translate(-105px, 0);
     top: 51px;
     border: 1px solid #007bff;
-    /* display: none; */
+    display: none;
 }
 
 .buyProudect {

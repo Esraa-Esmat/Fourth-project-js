@@ -26,25 +26,25 @@ let AddToCartBtn = document.querySelector(".AddToCartBtn")
 let RemoveFromCartBtn = document.querySelector(".RemoveFromCartBtn")
 
 let products = [
-    { id: 1, title: "Dell G15-5520", category: "Labtop", color: "Black", price: "36,870", salePrice: "36,270", imageURL: "images/Labtop1.jpg" },
-    { id: 2, title: "Lenovo V15", category: "Labtop", color: "gray", price: "13,333", salePrice: "13,011", imageURL: "images/Labtop2.jpg" },
-    { id: 3, title: "HP Victus", category: "Labtop", color: "Black", price: "47,699", salePrice: "47,438", imageURL: "images/Labtop3.jpg" },
-    { id: 4, title: "Dell Vostro", category: "Labtop", color: "Black", price: "29,660", salePrice: "29,320", imageURL: "images/Labtop4.jpg" },
-    { id: 5, title: "R50i", category: "Earbuds", color: "Black", price: "1,699", salePrice: "1,399", imageURL: "images/Earbuds1.jpg" },
-    { id: 6, title: "R100", category: "Earbuds", color: "White", price: "1,600", salePrice: "1,499", imageURL: "images/Earbuds.jpg" },
-    { id: 7, title: "Life P2", category: "Earbuds", color: "Black", price: "2,899", salePrice: "2,699", imageURL: "images/Earbuds3.jpg" },
-    { id: 8, title: "Life Note E", category: "Earbuds", color: "Black", price: "2,485", salePrice: "1,600", imageURL: "images/Earbuds4.jpg" },
+    { id: 1, title: "Dell G15-5520", category: "Labtop", color: "Black", price: "36870", salePrice: "36270", imageURL: "images/Labtop1.jpg" },
+    { id: 2, title: "Lenovo V15", category: "Labtop", color: "gray", price: "13333", salePrice: "13011", imageURL: "images/Labtop2.jpg" },
+    { id: 3, title: "HP Victus", category: "Labtop", color: "Black", price: "47699", salePrice: "47438", imageURL: "images/Labtop3.jpg" },
+    { id: 4, title: "Dell Vostro", category: "Labtop", color: "Black", price: "29660", salePrice: "29320", imageURL: "images/Labtop4.jpg" },
+    { id: 5, title: "R50i", category: "Earbuds", color: "Black", price: "1699", salePrice: "1399", imageURL: "images/Earbuds1.jpg" },
+    { id: 6, title: "R100", category: "Earbuds", color: "White", price: "1600", salePrice: "1499", imageURL: "images/Earbuds.jpg" },
+    { id: 7, title: "Life P2", category: "Earbuds", color: "Black", price: "2899", salePrice: "2699", imageURL: "images/Earbuds3.jpg" },
+    { id: 8, title: "Life Note E", category: "Earbuds", color: "Black", price: "2485", salePrice: "1600", imageURL: "images/Earbuds4.jpg" },
     { id: 8, title: "Generic", category: "Over Ear", color: "Blue", price: "215", salePrice: "185", imageURL: "images/Over Ear1.jpg" },
     { id: 9, title: "Panduo", category: "smart watch", color: "Green", price: "450", salePrice: "375", imageURL: "images/smartwatch1.jpg" },
     { id: 10, title: "Muktrics", category: "smart watch", color: "Black", price: "400", salePrice: "350", imageURL: "images/smartwatch2.jpg" },
-    { id: 11, title: "BigPlayer", category: "smart watch", color: "Brown", price: "730", salePrice: "650.", imageURL: "images/smartwatch3.jpg" },
-    { id: 12, title: "Samsung Galaxy A34", category: "phone", color: "Awesome Silver", price: "11,286", salePrice: "10,400", imageURL: "images/phone1.jpg" },
-    { id: 13, title: "A24", category: "phone", color: "Black", price: "499.00", salePrice: "38,090", imageURL: "images/phone2.jpg" },
-    { id: 14, title: "Oppo Reno 8T", category: "phone", Gold: "gray", price: "12,793", salePrice: "12,445", imageURL: "images/phone3.jpg" },
-    { id: 15, title: "Galaxy S22", category: "phone", color: "Green", price: "24,299", salePrice: "24,899", imageURL: "images/phone4.jpg" },
-    { id: 16, title: "Galaxy S22 Ultra", category: "phone", color: "Phantom Black", price: "32,800", salePrice: "33,400", imageURL: "images/phone5.jpg" },
-    { id: 17, title: "Galaxy S21", category: "phone", color: "Light Green", price: "21,990", salePrice: "19,299", imageURL: "images/phone6.jpg" },
-    { id: 18, title: "Galaxy Z Fold5", category: "phone", color: "	Light blue", price: "73,930.00", salePrice: "66,000", imageURL: "images/phone7.jpg" },
+    { id: 11, title: "BigPlayer", category: "smart watch", color: "Brown", price: "730", salePrice: "650", imageURL: "images/smartwatch3.jpg" },
+    { id: 12, title: "Samsung Galaxy A34", category: "phone", color: "Awesome Silver", price: "11286", salePrice: "10400", imageURL: "images/phone1.jpg" },
+    { id: 13, title: "A24", category: "phone", color: "Black", price: "49900", salePrice: "38090", imageURL: "images/phone2.jpg" },
+    { id: 14, title: "Oppo Reno 8T", category: "phone", Gold: "gray", price: "12793", salePrice: "12.445", imageURL: "images/phone3.jpg" },
+    { id: 15, title: "Galaxy S22", category: "phone", color: "Green", price: "24299", salePrice: "24899", imageURL: "images/phone4.jpg" },
+    { id: 16, title: "Galaxy S22 Ultra", category: "phone", color: "Phantom Black", price: "32800", salePrice: "33400", imageURL: "images/phone5.jpg" },
+    { id: 17, title: "Galaxy S21", category: "phone", color: "Light Green", price: "21990", salePrice: "19299", imageURL: "images/phone6.jpg" },
+    { id: 18, title: "Galaxy Z Fold5", category: "phone", color: "	Light blue", price: "73930", salePrice: "66000", imageURL: "images/phone7.jpg" },
 ]
 
 
@@ -113,7 +113,7 @@ if (addItemStorage) {
         document.getElementById(`remove-btn-${item.id}`).style.display = "inline-block";
         total += +item.salePrice * +(localStorage.getItem(`quantity-${item.id}`));
     })
-    totalPrice.innerHTML = total / 2;
+    totalPrice.innerHTML = total / 2 +" EGP";
 
 
     if (addItemStorage.length != 0) {
@@ -137,7 +137,7 @@ function pls(id, salePrice) {
     quantityElement.innerHTML = quantity;
     localStorage.setItem(`quantity-${id}`, quantity.toString());
     total += (+salePrice);
-    totalPrice.innerHTML = total;
+    totalPrice.innerHTML = total +" EGP";
     localStorage.setItem("totalPrice", JSON.stringify(total));
     openCart();
 }
@@ -151,7 +151,7 @@ function mins(id, salePrice) {
         quantityElement.innerHTML = quantity;
         localStorage.setItem(`quantity-${id}`, quantity.toString());
         total -= (+salePrice);
-        totalPrice.innerHTML = total;
+        totalPrice.innerHTML = total +" EGP";
         localStorage.setItem("totalPrice", JSON.stringify(total));
     }
     else {
@@ -184,7 +184,7 @@ function removeFromCart(id) {
 
         });
 
-        totalPrice.innerHTML = total;
+        totalPrice.innerHTML = total +" EGP";
         localStorage.setItem("totalPrice", JSON.stringify(total));
 
         if (addItemStorage.length !== 0) {
@@ -208,7 +208,7 @@ function addTOCartEvent(id) {
             let quantity = localStorage.getItem(`quantity-${choosenItem.id}`) ? +(localStorage.getItem(`quantity-${choosenItem.id}`)) : 1;
 
             total += (+choosenItem.salePrice) * quantity;
-            totalPrice.innerHTML = total;
+            totalPrice.innerHTML = total +" EGP";
             localStorage.setItem("totalPrice", JSON.stringify(total));
 
             document.getElementById(`add-btn-${id}`).style.display = "none";

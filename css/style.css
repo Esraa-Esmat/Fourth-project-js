@@ -108,17 +108,20 @@ nav ul#userInfo li {
 
 nav ul#userInfo li .badge {
     position: absolute;
-    width: 18px;
-    height: 18px;
-    background-color: #000;
-    color: #fff;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    color: #007bff;
     text-align: center;
     /* display: block; */
     border-radius: 50%;
-    top: -3px;
+    top: -8px;
     right: 16px;
-    font-size: 13px;
+    font-size: 15px;
     display: none;
+}
+#logOut{
+    color: #fff;
 }
 .ViewPro{
     width: 94%;

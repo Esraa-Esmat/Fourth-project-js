@@ -120,9 +120,10 @@ nav ul#userInfo li .badge {
     font-size: 15px;
     display: none;
 }
-#logOut{
+nav #links li a,#logOut{
     color: #fff;
 }
+
 .ViewPro{
     width: 94%;
 }
